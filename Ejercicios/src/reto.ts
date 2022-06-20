@@ -1,3 +1,11 @@
+/*
+
+El reto consiste en crear un interfaz para los items del arreglo todoItems
+Crear un enum para los valores del campo status.
+Que la funcion reciba un string como argumento y retorne un objeto Todo
+*/
+
+
 const todoItems = [
     { id: 1, title: "Learn HTML", status: "done", completedOn: new Date("2021-09-11") },
     { id: 2, title: "Learn TypeScript", status: "in-progress" },
